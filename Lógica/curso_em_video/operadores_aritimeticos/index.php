@@ -4,7 +4,7 @@
 //. concatenação
 
 $r = "2" + "2";
-var_dump($r);//4 inteiro, devido ao sinal "+" as strings "2" foram convertidas para int
+var_dump($r);//resultado = 4 inteiro, devido ao sinal "+" as strings "2" foram convertidas para int
 
 /*
     + Adição
@@ -14,4 +14,9 @@ var_dump($r);//4 inteiro, devido ao sinal "+" as strings "2" foram convertidas p
     / Divisão
     % Módulo (Resto de divisão)
 */
+
+//Aula expressões aritiméticas
+
+$test = 2**(3+4)-11;
+echo $test;
 ?>
